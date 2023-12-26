@@ -40,12 +40,7 @@ const diablo = (m, d, k, c) => {
   return count * c;
 };
 
-console.log("- Diablo -");
-
 console.log(diablo(10, 5, 1, 2)); // 4
-
 console.log(diablo(10, 4, 1, 2)); // 4
-
 console.log(diablo(10, 5, 2, 2)); // 8
-
 console.log(diablo(10, 7, 8, 1)); // -1

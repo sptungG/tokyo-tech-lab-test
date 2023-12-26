@@ -21,7 +21,7 @@ node 1-diablo.js
 Tokyo Techies và Tokyo Tech Lab tổ chức giao hữu bóng đá. Anh em các miền rất hào hứng đến xem và cổ vũ.
 
 Có mỗi anh TùngPD do mải code nên quên giờ, đến khi nhớ ra và chạy đến thì trận đấu đã diễn ra hết hiệp 1. Tỉ số lúc này là TT `x` - `y` TTLab.
-Anh Tùng muốn tỏ ra nguy hiểm và đoán thứ tự ghi bàn của cả hiệp 1. 
+Anh Tùng muốn tỏ ra nguy hiểm và đoán thứ tự ghi bàn của cả hiệp 1.
 
 Hãy giúp anh Tùng viết chương trình đếm số cách để đạt được tỉ số `x` - `y` như hiện tại.
 
@@ -29,4 +29,18 @@ Hãy giúp anh Tùng viết chương trình đếm số cách để đạt đư�
 node 2-giao-huu-bong-da.js
 ```
 
-## 
+## Cân bằng ngoặc
+
+Cho 1 xâu chỉ gồm các ký tự ngoặc: `{ [ ( ) ] }`
+
+Xét xem xâu được cho có cân bằng không.
+
+Xâu được coi là cân bằng khi
+
+- Mỗi dấu mở ngoặc có 1 dấu đóng ngoặc tương ứng không nằm trước nó.
+- Tất cả các chuỗi con giữa mọi cặp ngoặc phải cân bằng.
+- 1 xâu rỗng cũng được coi là xâu cân bằng.
+
+```
+node 3-can-bang-ngoac.js
+```
